@@ -7,7 +7,7 @@ from pathlib import Path
 
 #Project Directories
 
-BASE_DIR: Path = Path(_file_).resolve().parent.parent
+BASE_DIR: Path = Path(__file__).resolve().parent.parent
 UPLOAD_DIR: Path = BASE_DIR / "uploads"
 OUTPUT_DIR: Path = BASE_DIR / "output"
 

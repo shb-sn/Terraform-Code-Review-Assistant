@@ -1,0 +1,16 @@
+#backend
+fastapi
+uvicorn
+python-multipart
+
+#data validation/models
+pydantic
+numpy
+pandas
+
+#frontend
+streamlit
+streamlit-keyup
+
+#environment configuration
+python-dotenv

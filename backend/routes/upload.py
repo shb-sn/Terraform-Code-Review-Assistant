@@ -9,7 +9,7 @@ Workflow
 4. Return review ID.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 from fastapi import (
     APIRouter,

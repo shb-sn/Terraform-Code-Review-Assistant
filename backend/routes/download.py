@@ -8,7 +8,7 @@ Workflow
 3. Return download metadata.
 """
 
-from _future_ import annotations
+from __future__ import annotations
 
 from fastapi import (
     APIRouter,

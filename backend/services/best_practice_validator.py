@@ -6,7 +6,7 @@ missing resource tags, naming convention violations, missing lifecycle blocks,
 deprecated interpolation syntax, missing variable descriptions, missing output descriptions
 """
 
-from _future_ import annotations
+from __future__ import annotations
 import re
 import time
 from pathlib import Path

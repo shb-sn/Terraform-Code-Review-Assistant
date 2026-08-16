@@ -1,0 +1,5 @@
+from services.recommendation_engine import RecommendationEngine
+from services.workspace_manager import WorkspaceManager
+
+recommendation_engine=RecommendationEngine()
+workspace_manager=WorkspaceManager()
